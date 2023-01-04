@@ -1,5 +1,5 @@
 {
-  "name": "@exodus/google-protobuf",
+  "name": "@vasujke/google-protobuf",
   "version": "3.13.0-exodus.1",
   "description": "Protocol Buffers for JavaScript",
   "main": "google-protobuf.js",
@@ -14,8 +14,9 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/ExodusMovement/google-protobuf"
+    "url": "https://github.com/Vasujkes/google-protobuf"
   },
   "author": "Google Protocol Buffers Team",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/Vasujkes/google-protobuf"
 }

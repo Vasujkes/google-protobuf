@@ -8,7 +8,7 @@
  */
 // GENERATED CODE -- DO NOT EDIT!
 
-var jspb = require('@exodus/google-protobuf');
+var jspb = require('@vasujke/google-protobuf');
 var goog = jspb;
 const proto = {};
 
@@ -31,7 +31,7 @@ goog.exportSymbol('proto.google.protobuf.UInt64Value', null, { proto });
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.DoubleValue = function (opt_data) {
+proto.google.protobuf.DoubleValue = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.DoubleValue, jspb.Message);
@@ -52,7 +52,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.FloatValue = function (opt_data) {
+proto.google.protobuf.FloatValue = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.FloatValue, jspb.Message);
@@ -73,7 +73,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.Int64Value = function (opt_data) {
+proto.google.protobuf.Int64Value = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.Int64Value, jspb.Message);
@@ -94,7 +94,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.UInt64Value = function (opt_data) {
+proto.google.protobuf.UInt64Value = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.UInt64Value, jspb.Message);
@@ -115,7 +115,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.Int32Value = function (opt_data) {
+proto.google.protobuf.Int32Value = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.Int32Value, jspb.Message);
@@ -136,7 +136,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.UInt32Value = function (opt_data) {
+proto.google.protobuf.UInt32Value = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.UInt32Value, jspb.Message);
@@ -157,7 +157,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.BoolValue = function (opt_data) {
+proto.google.protobuf.BoolValue = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.BoolValue, jspb.Message);
@@ -178,7 +178,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.StringValue = function (opt_data) {
+proto.google.protobuf.StringValue = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.StringValue, jspb.Message);
@@ -199,7 +199,7 @@ if (goog.DEBUG && !COMPILED) {
  * @extends {jspb.Message}
  * @constructor
  */
-proto.google.protobuf.BytesValue = function (opt_data) {
+proto.google.protobuf.BytesValue = function(opt_data) {
   jspb.Message.initialize(this, opt_data, 0, -1, null, null);
 };
 goog.inherits(proto.google.protobuf.BytesValue, jspb.Message);
@@ -211,55 +211,59 @@ if (goog.DEBUG && !COMPILED) {
   proto.google.protobuf.BytesValue.displayName = 'proto.google.protobuf.BytesValue';
 }
 
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.DoubleValue.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.DoubleValue.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.DoubleValue.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.DoubleValue.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.DoubleValue} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.DoubleValue.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0)
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.DoubleValue} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.DoubleValue.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.DoubleValue}
  */
-proto.google.protobuf.DoubleValue.deserializeBinary = function (bytes) {
+proto.google.protobuf.DoubleValue.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.DoubleValue();
+  var msg = new proto.google.protobuf.DoubleValue;
   return proto.google.protobuf.DoubleValue.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -268,34 +272,36 @@ proto.google.protobuf.DoubleValue.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.DoubleValue}
  */
-proto.google.protobuf.DoubleValue.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.DoubleValue.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {number} */ (reader.readDouble());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {number} */ (reader.readDouble());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.DoubleValue.prototype.serializeBinary = function () {
+proto.google.protobuf.DoubleValue.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.DoubleValue.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -304,79 +310,90 @@ proto.google.protobuf.DoubleValue.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.DoubleValue.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.DoubleValue.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f !== 0.0) {
-    writer.writeDouble(1, f);
+    writer.writeDouble(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional double value = 1;
  * @return {number}
  */
-proto.google.protobuf.DoubleValue.prototype.getValue = function () {
+proto.google.protobuf.DoubleValue.prototype.getValue = function() {
   return /** @type {number} */ (jspb.Message.getFloatingPointFieldWithDefault(this, 1, 0.0));
 };
+
 
 /**
  * @param {number} value
  * @return {!proto.google.protobuf.DoubleValue} returns this
  */
-proto.google.protobuf.DoubleValue.prototype.setValue = function (value) {
+proto.google.protobuf.DoubleValue.prototype.setValue = function(value) {
   return jspb.Message.setProto3FloatField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.FloatValue.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.FloatValue.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.FloatValue.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.FloatValue.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.FloatValue} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.FloatValue.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0)
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.FloatValue} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.FloatValue.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getFloatingPointFieldWithDefault(msg, 1, 0.0),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.FloatValue}
  */
-proto.google.protobuf.FloatValue.deserializeBinary = function (bytes) {
+proto.google.protobuf.FloatValue.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.FloatValue();
+  var msg = new proto.google.protobuf.FloatValue;
   return proto.google.protobuf.FloatValue.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -385,34 +402,36 @@ proto.google.protobuf.FloatValue.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.FloatValue}
  */
-proto.google.protobuf.FloatValue.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.FloatValue.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {number} */ (reader.readFloat());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {number} */ (reader.readFloat());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.FloatValue.prototype.serializeBinary = function () {
+proto.google.protobuf.FloatValue.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.FloatValue.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -421,79 +440,90 @@ proto.google.protobuf.FloatValue.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.FloatValue.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.FloatValue.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f !== 0.0) {
-    writer.writeFloat(1, f);
+    writer.writeFloat(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional float value = 1;
  * @return {number}
  */
-proto.google.protobuf.FloatValue.prototype.getValue = function () {
+proto.google.protobuf.FloatValue.prototype.getValue = function() {
   return /** @type {number} */ (jspb.Message.getFloatingPointFieldWithDefault(this, 1, 0.0));
 };
+
 
 /**
  * @param {number} value
  * @return {!proto.google.protobuf.FloatValue} returns this
  */
-proto.google.protobuf.FloatValue.prototype.setValue = function (value) {
+proto.google.protobuf.FloatValue.prototype.setValue = function(value) {
   return jspb.Message.setProto3FloatField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.Int64Value.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.Int64Value.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.Int64Value.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.Int64Value.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.Int64Value} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.Int64Value.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.Int64Value} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.Int64Value.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getFieldWithDefault(msg, 1, 0),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.Int64Value}
  */
-proto.google.protobuf.Int64Value.deserializeBinary = function (bytes) {
+proto.google.protobuf.Int64Value.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.Int64Value();
+  var msg = new proto.google.protobuf.Int64Value;
   return proto.google.protobuf.Int64Value.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -502,34 +532,36 @@ proto.google.protobuf.Int64Value.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.Int64Value}
  */
-proto.google.protobuf.Int64Value.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.Int64Value.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {number} */ (reader.readInt64());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {number} */ (reader.readInt64());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.Int64Value.prototype.serializeBinary = function () {
+proto.google.protobuf.Int64Value.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.Int64Value.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -538,79 +570,90 @@ proto.google.protobuf.Int64Value.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.Int64Value.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.Int64Value.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f !== 0) {
-    writer.writeInt64(1, f);
+    writer.writeInt64(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional int64 value = 1;
  * @return {number}
  */
-proto.google.protobuf.Int64Value.prototype.getValue = function () {
+proto.google.protobuf.Int64Value.prototype.getValue = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
+
 
 /**
  * @param {number} value
  * @return {!proto.google.protobuf.Int64Value} returns this
  */
-proto.google.protobuf.Int64Value.prototype.setValue = function (value) {
+proto.google.protobuf.Int64Value.prototype.setValue = function(value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.UInt64Value.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.UInt64Value.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.UInt64Value.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.UInt64Value.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.UInt64Value} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.UInt64Value.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.UInt64Value} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.UInt64Value.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getFieldWithDefault(msg, 1, 0),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.UInt64Value}
  */
-proto.google.protobuf.UInt64Value.deserializeBinary = function (bytes) {
+proto.google.protobuf.UInt64Value.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.UInt64Value();
+  var msg = new proto.google.protobuf.UInt64Value;
   return proto.google.protobuf.UInt64Value.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -619,34 +662,36 @@ proto.google.protobuf.UInt64Value.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.UInt64Value}
  */
-proto.google.protobuf.UInt64Value.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.UInt64Value.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {number} */ (reader.readUint64());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {number} */ (reader.readUint64());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.UInt64Value.prototype.serializeBinary = function () {
+proto.google.protobuf.UInt64Value.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.UInt64Value.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -655,79 +700,90 @@ proto.google.protobuf.UInt64Value.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.UInt64Value.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.UInt64Value.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f !== 0) {
-    writer.writeUint64(1, f);
+    writer.writeUint64(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional uint64 value = 1;
  * @return {number}
  */
-proto.google.protobuf.UInt64Value.prototype.getValue = function () {
+proto.google.protobuf.UInt64Value.prototype.getValue = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
+
 
 /**
  * @param {number} value
  * @return {!proto.google.protobuf.UInt64Value} returns this
  */
-proto.google.protobuf.UInt64Value.prototype.setValue = function (value) {
+proto.google.protobuf.UInt64Value.prototype.setValue = function(value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.Int32Value.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.Int32Value.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.Int32Value.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.Int32Value.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.Int32Value} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.Int32Value.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.Int32Value} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.Int32Value.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getFieldWithDefault(msg, 1, 0),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.Int32Value}
  */
-proto.google.protobuf.Int32Value.deserializeBinary = function (bytes) {
+proto.google.protobuf.Int32Value.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.Int32Value();
+  var msg = new proto.google.protobuf.Int32Value;
   return proto.google.protobuf.Int32Value.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -736,34 +792,36 @@ proto.google.protobuf.Int32Value.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.Int32Value}
  */
-proto.google.protobuf.Int32Value.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.Int32Value.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {number} */ (reader.readInt32());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {number} */ (reader.readInt32());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.Int32Value.prototype.serializeBinary = function () {
+proto.google.protobuf.Int32Value.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.Int32Value.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -772,79 +830,90 @@ proto.google.protobuf.Int32Value.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.Int32Value.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.Int32Value.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f !== 0) {
-    writer.writeInt32(1, f);
+    writer.writeInt32(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional int32 value = 1;
  * @return {number}
  */
-proto.google.protobuf.Int32Value.prototype.getValue = function () {
+proto.google.protobuf.Int32Value.prototype.getValue = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
+
 
 /**
  * @param {number} value
  * @return {!proto.google.protobuf.Int32Value} returns this
  */
-proto.google.protobuf.Int32Value.prototype.setValue = function (value) {
+proto.google.protobuf.Int32Value.prototype.setValue = function(value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.UInt32Value.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.UInt32Value.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.UInt32Value.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.UInt32Value.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.UInt32Value} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.UInt32Value.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getFieldWithDefault(msg, 1, 0)
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.UInt32Value} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.UInt32Value.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getFieldWithDefault(msg, 1, 0),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.UInt32Value}
  */
-proto.google.protobuf.UInt32Value.deserializeBinary = function (bytes) {
+proto.google.protobuf.UInt32Value.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.UInt32Value();
+  var msg = new proto.google.protobuf.UInt32Value;
   return proto.google.protobuf.UInt32Value.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -853,34 +922,36 @@ proto.google.protobuf.UInt32Value.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.UInt32Value}
  */
-proto.google.protobuf.UInt32Value.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.UInt32Value.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {number} */ (reader.readUint32());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {number} */ (reader.readUint32());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.UInt32Value.prototype.serializeBinary = function () {
+proto.google.protobuf.UInt32Value.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.UInt32Value.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -889,79 +960,90 @@ proto.google.protobuf.UInt32Value.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.UInt32Value.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.UInt32Value.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f !== 0) {
-    writer.writeUint32(1, f);
+    writer.writeUint32(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional uint32 value = 1;
  * @return {number}
  */
-proto.google.protobuf.UInt32Value.prototype.getValue = function () {
+proto.google.protobuf.UInt32Value.prototype.getValue = function() {
   return /** @type {number} */ (jspb.Message.getFieldWithDefault(this, 1, 0));
 };
+
 
 /**
  * @param {number} value
  * @return {!proto.google.protobuf.UInt32Value} returns this
  */
-proto.google.protobuf.UInt32Value.prototype.setValue = function (value) {
+proto.google.protobuf.UInt32Value.prototype.setValue = function(value) {
   return jspb.Message.setProto3IntField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.BoolValue.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.BoolValue.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.BoolValue.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.BoolValue.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.BoolValue} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.BoolValue.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getBooleanFieldWithDefault(msg, 1, false)
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.BoolValue} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.BoolValue.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getBooleanFieldWithDefault(msg, 1, false),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.BoolValue}
  */
-proto.google.protobuf.BoolValue.deserializeBinary = function (bytes) {
+proto.google.protobuf.BoolValue.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.BoolValue();
+  var msg = new proto.google.protobuf.BoolValue;
   return proto.google.protobuf.BoolValue.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -970,34 +1052,36 @@ proto.google.protobuf.BoolValue.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.BoolValue}
  */
-proto.google.protobuf.BoolValue.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.BoolValue.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {boolean} */ (reader.readBool());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {boolean} */ (reader.readBool());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.BoolValue.prototype.serializeBinary = function () {
+proto.google.protobuf.BoolValue.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.BoolValue.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1006,79 +1090,90 @@ proto.google.protobuf.BoolValue.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.BoolValue.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.BoolValue.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f) {
-    writer.writeBool(1, f);
+    writer.writeBool(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional bool value = 1;
  * @return {boolean}
  */
-proto.google.protobuf.BoolValue.prototype.getValue = function () {
+proto.google.protobuf.BoolValue.prototype.getValue = function() {
   return /** @type {boolean} */ (jspb.Message.getBooleanFieldWithDefault(this, 1, false));
 };
+
 
 /**
  * @param {boolean} value
  * @return {!proto.google.protobuf.BoolValue} returns this
  */
-proto.google.protobuf.BoolValue.prototype.setValue = function (value) {
+proto.google.protobuf.BoolValue.prototype.setValue = function(value) {
   return jspb.Message.setProto3BooleanField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.StringValue.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.StringValue.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.StringValue.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.StringValue.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.StringValue} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.StringValue.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: jspb.Message.getFieldWithDefault(msg, 1, "")
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.StringValue} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.StringValue.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: jspb.Message.getFieldWithDefault(msg, 1, ''),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.StringValue}
  */
-proto.google.protobuf.StringValue.deserializeBinary = function (bytes) {
+proto.google.protobuf.StringValue.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.StringValue();
+  var msg = new proto.google.protobuf.StringValue;
   return proto.google.protobuf.StringValue.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1087,34 +1182,36 @@ proto.google.protobuf.StringValue.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.StringValue}
  */
-proto.google.protobuf.StringValue.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.StringValue.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {string} */ (reader.readString());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {string} */ (reader.readString());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.StringValue.prototype.serializeBinary = function () {
+proto.google.protobuf.StringValue.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.StringValue.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1123,79 +1220,90 @@ proto.google.protobuf.StringValue.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.StringValue.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.StringValue.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue();
   if (f.length > 0) {
-    writer.writeString(1, f);
+    writer.writeString(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional string value = 1;
  * @return {string}
  */
-proto.google.protobuf.StringValue.prototype.getValue = function () {
-  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
+proto.google.protobuf.StringValue.prototype.getValue = function() {
+  return /** @type {string} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
+
 
 /**
  * @param {string} value
  * @return {!proto.google.protobuf.StringValue} returns this
  */
-proto.google.protobuf.StringValue.prototype.setValue = function (value) {
+proto.google.protobuf.StringValue.prototype.setValue = function(value) {
   return jspb.Message.setProto3StringField(this, 1, value);
 };
 
+
+
+
+
 if (jspb.Message.GENERATE_TO_OBJECT) {
-  /**
-   * Creates an object representation of this proto.
-   * Field names that are reserved in JavaScript and will be renamed to pb_name.
-   * Optional fields that are not set will be set to undefined.
-   * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
-   * For the list of reserved names please see:
-   *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
-   * @param {boolean=} opt_includeInstance Deprecated. whether to include the
-   *     JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @return {!Object}
-   */
-  proto.google.protobuf.BytesValue.prototype.toObject = function (opt_includeInstance) {
-    return proto.google.protobuf.BytesValue.toObject(opt_includeInstance, this);
+/**
+ * Creates an object representation of this proto.
+ * Field names that are reserved in JavaScript and will be renamed to pb_name.
+ * Optional fields that are not set will be set to undefined.
+ * To access a reserved field use, foo.pb_<name>, eg, foo.pb_default.
+ * For the list of reserved names please see:
+ *     net/proto2/compiler/js/internal/generator.cc#kKeyword.
+ * @param {boolean=} opt_includeInstance Deprecated. whether to include the
+ *     JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @return {!Object}
+ */
+proto.google.protobuf.BytesValue.prototype.toObject = function(opt_includeInstance) {
+  return proto.google.protobuf.BytesValue.toObject(opt_includeInstance, this);
+};
+
+
+/**
+ * Static version of the {@see toObject} method.
+ * @param {boolean|undefined} includeInstance Deprecated. Whether to include
+ *     the JSPB instance for transitional soy proto support:
+ *     http://goto/soy-param-migration
+ * @param {!proto.google.protobuf.BytesValue} msg The msg instance to transform.
+ * @return {!Object}
+ * @suppress {unusedLocalVariables} f is only used for nested messages
+ */
+proto.google.protobuf.BytesValue.toObject = function(includeInstance, msg) {
+  var f, obj = {
+    value: msg.getValue_asB64()
   };
 
-  /**
-   * Static version of the {@see toObject} method.
-   * @param {boolean|undefined} includeInstance Deprecated. Whether to include
-   *     the JSPB instance for transitional soy proto support:
-   *     http://goto/soy-param-migration
-   * @param {!proto.google.protobuf.BytesValue} msg The msg instance to transform.
-   * @return {!Object}
-   * @suppress {unusedLocalVariables} f is only used for nested messages
-   */
-  proto.google.protobuf.BytesValue.toObject = function (includeInstance, msg) {
-    var f,
-      obj = {
-        value: msg.getValue_asB64(),
-      };
-
-    if (includeInstance) {
-      obj.$jspbMessageInstance = msg;
-    }
-    return obj;
-  };
+  if (includeInstance) {
+    obj.$jspbMessageInstance = msg;
+  }
+  return obj;
+};
 }
+
 
 /**
  * Deserializes binary data (in protobuf wire format).
  * @param {jspb.ByteSource} bytes The bytes to deserialize.
  * @return {!proto.google.protobuf.BytesValue}
  */
-proto.google.protobuf.BytesValue.deserializeBinary = function (bytes) {
+proto.google.protobuf.BytesValue.deserializeBinary = function(bytes) {
   var reader = new jspb.BinaryReader(bytes);
-  var msg = new proto.google.protobuf.BytesValue();
+  var msg = new proto.google.protobuf.BytesValue;
   return proto.google.protobuf.BytesValue.deserializeBinaryFromReader(msg, reader);
 };
+
 
 /**
  * Deserializes binary data (in protobuf wire format) from the
@@ -1204,34 +1312,36 @@ proto.google.protobuf.BytesValue.deserializeBinary = function (bytes) {
  * @param {!jspb.BinaryReader} reader The BinaryReader to use.
  * @return {!proto.google.protobuf.BytesValue}
  */
-proto.google.protobuf.BytesValue.deserializeBinaryFromReader = function (msg, reader) {
+proto.google.protobuf.BytesValue.deserializeBinaryFromReader = function(msg, reader) {
   while (reader.nextField()) {
     if (reader.isEndGroup()) {
       break;
     }
     var field = reader.getFieldNumber();
     switch (field) {
-      case 1:
-        var value = /** @type {!Uint8Array} */ (reader.readBytes());
-        msg.setValue(value);
-        break;
-      default:
-        reader.skipField();
-        break;
+    case 1:
+      var value = /** @type {!Uint8Array} */ (reader.readBytes());
+      msg.setValue(value);
+      break;
+    default:
+      reader.skipField();
+      break;
     }
   }
   return msg;
 };
 
+
 /**
  * Serializes the message to binary data (in protobuf wire format).
  * @return {!Uint8Array}
  */
-proto.google.protobuf.BytesValue.prototype.serializeBinary = function () {
+proto.google.protobuf.BytesValue.prototype.serializeBinary = function() {
   var writer = new jspb.BinaryWriter();
   proto.google.protobuf.BytesValue.serializeBinaryToWriter(this, writer);
   return writer.getResultBuffer();
 };
+
 
 /**
  * Serializes the given message to binary data (in protobuf wire
@@ -1240,30 +1350,37 @@ proto.google.protobuf.BytesValue.prototype.serializeBinary = function () {
  * @param {!jspb.BinaryWriter} writer
  * @suppress {unusedLocalVariables} f is only used for nested messages
  */
-proto.google.protobuf.BytesValue.serializeBinaryToWriter = function (message, writer) {
+proto.google.protobuf.BytesValue.serializeBinaryToWriter = function(message, writer) {
   var f = undefined;
   f = message.getValue_asU8();
   if (f.length > 0) {
-    writer.writeBytes(1, f);
+    writer.writeBytes(
+      1,
+      f
+    );
   }
 };
+
 
 /**
  * optional bytes value = 1;
  * @return {!(string|Uint8Array)}
  */
-proto.google.protobuf.BytesValue.prototype.getValue = function () {
-  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 1, ''));
+proto.google.protobuf.BytesValue.prototype.getValue = function() {
+  return /** @type {!(string|Uint8Array)} */ (jspb.Message.getFieldWithDefault(this, 1, ""));
 };
+
 
 /**
  * optional bytes value = 1;
  * This is a type-conversion wrapper around `getValue()`
  * @return {string}
  */
-proto.google.protobuf.BytesValue.prototype.getValue_asB64 = function () {
-  return /** @type {string} */ (jspb.Message.bytesAsB64(this.getValue()));
+proto.google.protobuf.BytesValue.prototype.getValue_asB64 = function() {
+  return /** @type {string} */ (jspb.Message.bytesAsB64(
+      this.getValue()));
 };
+
 
 /**
  * optional bytes value = 1;
@@ -1272,16 +1389,19 @@ proto.google.protobuf.BytesValue.prototype.getValue_asB64 = function () {
  * This is a type-conversion wrapper around `getValue()`
  * @return {!Uint8Array}
  */
-proto.google.protobuf.BytesValue.prototype.getValue_asU8 = function () {
-  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(this.getValue()));
+proto.google.protobuf.BytesValue.prototype.getValue_asU8 = function() {
+  return /** @type {!Uint8Array} */ (jspb.Message.bytesAsU8(
+      this.getValue()));
 };
+
 
 /**
  * @param {!(string|Uint8Array)} value
  * @return {!proto.google.protobuf.BytesValue} returns this
  */
-proto.google.protobuf.BytesValue.prototype.setValue = function (value) {
+proto.google.protobuf.BytesValue.prototype.setValue = function(value) {
   return jspb.Message.setProto3BytesField(this, 1, value);
 };
+
 
 goog.object.extend(exports, proto.google.protobuf);

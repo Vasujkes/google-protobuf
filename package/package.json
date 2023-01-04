@@ -1,20 +1,25 @@
 {
-  "name": "@exodus/google-protobuf",
-  "version": "3.13.0-exodus.1",
+  "name": "google-protobuf",
+  "version": "3.13.0",
   "description": "Protocol Buffers for JavaScript",
   "main": "google-protobuf.js",
   "files": [
-    "google/protobuf/any_pb.js",
-    "google/protobuf/descriptor_pb.js",
-    "google/protobuf/source_context_pb.js",
-    "google/protobuf/type_pb.js",
-    "google/protobuf/wrappers_pb.js",
-    "google-protobuf.js"
+    "google"
   ],
   "dependencies": {},
+  "devDependencies": {
+    "glob": "~7.1.4",
+    "google-closure-compiler": "~20190819.0.0",
+    "google-closure-library": "~20190819.0.0",
+    "gulp": "~4.0.2",
+    "jasmine": "~3.4.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/gulp/bin/gulp.js test"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ExodusMovement/google-protobuf"
+    "url": "https://github.com/protocolbuffers/protobuf/tree/master/js"
   },
   "author": "Google Protocol Buffers Team",
   "license": "BSD-3-Clause"
